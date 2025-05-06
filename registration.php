@@ -73,7 +73,7 @@ if(isset($_POST['register'])){
   <script>
     Swal.fire({
       icon: 'error',
-      title: 'Oops...',
+      title: 'Oops....',
       text: '<?php echo addslashes($_SESSION['error']);?>',
       confirmButtonText: 'OK'
     })
